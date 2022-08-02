@@ -1,0 +1,131 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color:#3a1b09;
+	background-repeat: repeat;
+}
+
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p, pre {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+a img { 
+	border: none;
+}
+
+a:link, a:visited  {
+	color:burlywood;
+	text-decoration: none;
+	}
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+
+.container {
+	width: 960px;
+	background-color: #CCC;
+	margin: 0 auto; }
+
+.header {
+	border-bottom: 2px solid pink;
+	background-color:#000;
+	position:absolute;
+    width: 100%;
+	
+}
+	
+}
+.sidebar1 {
+	float: right;
+	width: 180px;
+	background-color: #ffcc66;
+	padding-bottom: 10px;
+}
+.content {
+	box-sizing:border-box;
+	padding-inline:10%;
+	width: 100%;
+	float: right;
+	background-color: #efefef;
+	padding-top:100px;
+}
+img {
+
+	 margin-left:15px;
+}
+
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; }
+
+ul.nav {
+	list-style: none; 
+	margin-bottom: 15px;
+	
+}
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 5px;
+	display: block; 
+	width: 160px;  
+	text-decoration: none;
+	
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+	color: #FFF;
+	box-shadow: 0px 0px 20px 0px brown inset;
+	transition: 0.3s;
+	border-radius: 15px;
+}
+
+
+/* ~~ Altbilgi ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+	position: relative;
+	clear: both;
+	bottom:0px;
+}
+
+/* ~~ çeşitli float/clear sınıfları ~~ */
+.fltrt {  /* bu sınıf bir öğeyi sayfanızın sağında yüzdürmek için kullanılabilir. Yüzen öğe sayfada olması gereken bir sonraki öğeden önce gelmelidir. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* bu sınıf bir öğeyi sayfanızın solunda yüzdürmek için kullanılabilir. Yüzen öğe sayfada olması gereken bir sonraki öğeden önce gelmelidir. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* bu sınıf, #footer kaldırılırsa veya #container öğesinden çıkarılırsa, son yüzdürülen div’i (#container öğesi içinde) takiben bir <br /> veya boş bir div’e yerleştirilebilir */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+li	{
+	display: inline-block;
+    font-size: 20px;
+    margin: 12px 0px 12px 24px;
+    float:right;
+	}
+.logo{
+	display: block;
+	float:left;
+	}
+.icerik{
+	width: 45%;
+    display: inline-block;
+    position: relative;
+	}
+div .content img{
+	display:inline-block;
+	}
